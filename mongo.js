@@ -5,7 +5,7 @@ const assert = require('assert');
 // Connection URL
 const url = 'mongodb://localhost:27017';
 // Database Name
-const dbName = 'self_api';
+const dbName = 'api_db';
 // 新規MongoClien生成
 const client = new MongoClient(url, { useNewUrlParser: true });
 // db変数
