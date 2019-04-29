@@ -3,8 +3,6 @@ const express = require('express');
 const router = express.Router();
 // MongoDB用モジュール読み込み
 const mongo = require('../mongo');
-//ルート
-// const route = '/api/v1/list';
 //ポート番号
 const port = 3000;
 //collection名
